@@ -214,7 +214,7 @@ def main():
     mp.xticks(rotation=45, ha='right')#rotate the words 45 degrees right to make them easy to read and not overlap
     ax.set_ylabel("Number of Stations")#rename the y-axis
     ax.set_title(f"Top {top_n} Cities") #reanme the x-axis with top_n from radio
-    ax.grid(True, linestyle='--', alpha=0.5)#True makes a grid, linestyle has dashes and alpha is the transparency
+    ax.grid(True, axis="y", linestyle='--', alpha=0.5)#True makes a grid, linestyle has dashes and alpha is the transparency
     sl.pyplot(fig)#let it appear in streamlit
 
     # VISUALIZATION 3: LINE CHART (Openings Over Time)
