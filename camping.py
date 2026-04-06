@@ -7,8 +7,8 @@ st.sidebar.title("Navigation")
 st.sidebar.info("Select a tool below to view it inside this app.")
 
 # 2. Define your two website links here
-site_one_name = "Trip Availability (Rally)"
-site_one_url = "https://rallly.co/invite/r99tbOcrAPlZ"  # Replace with your actual link
+site_one_name = "Trip Availability"
+site_one_url = "https://forms.gle/wbV27pZhhQbU1NNZA"  # Replace with your actual link
 
 site_two_name = "Suggestion Box"
 site_two_url = "https://forms.gle/Fc9vH3kgC1hy7GVj6"  # Replace with your actual link
