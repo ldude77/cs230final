@@ -34,7 +34,6 @@ if choice == welcome_name:
     *Note: If the embedded forms appear blank or won't load, use the "click here" links at the top of each page to open them in a new window.*
     """)
     
-    st.info("Log your dates by the end of the week so we can start booking!")
 
 elif choice == site_one_name:
     st.subheader(f"Showing: {site_one_name}")
